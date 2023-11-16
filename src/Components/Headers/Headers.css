@@ -1,0 +1,58 @@
+.Header{
+    position: fixed;
+    display: flex;
+    width: 1600px;
+    margin: 0px;
+    background-image: linear-gradient(to right, #fdfcfc 65%, #e4dede);
+}
+.main-Header{
+    display: flex;
+    height: 30px;
+    flex-direction: row;
+    align-items: center;;
+    margin-left: auto;
+    margin-right: 138px;
+}
+.Laungage{
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 300;
+    padding-right: 20px;
+}
+
+@media only screen and (max-width: 1366px) {
+    .Header{
+        position: fixed;
+        display: flex;
+        width: 1366px;
+        margin: 0px;
+        background-image: linear-gradient(to right, #fdfcfc 60%, #e4dede);
+    }
+    .main-Header{
+        display: flex;
+        height: 30px;
+        flex-direction: row;
+        align-items: center;;
+        margin-left: auto;
+        margin-right: 120px;
+    }
+    .Laungage{
+        font-size: 14px;
+        font-family: Roboto;
+        font-weight: 300;
+        padding-right: 20px;
+    }
+    .Volunteer{
+        font-size: 14px;
+        font-family: Roboto;
+        font-weight: 300;
+        padding-right: 20px;
+    }
+    .Careers{
+        font-size: 14px;
+        font-family: Roboto;
+        font-weight: 300;
+        padding-right: 20px;
+    }
+
+}
